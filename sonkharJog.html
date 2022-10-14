@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+/*
+let color=prompt('ENter ANy Color');
+
+
+color=color.toLowerCase();
+switch(color){
+
+    case "green":
+        document.write("It's a Mango");
+        break;
+        case "red":
+        document.write("It's a Chilli");
+        break;
+        case "yellow":
+        document.write("It's a Bannana");
+        break;
+        default:
+            document.write("Kochu");
+        
+}
+*/
+/*
+let mAr=['Name: Jhon','Grade A+'];
+
+let marks=parseInt(prompt("Enter Your Number"));
+
+
+
+    if(marks<00 || marks>100){
+
+        document.write("invalid Marks");
+
+    }
+
+    else if(marks>40 && marks<60){
+        document.write("You Got D")  ;
+      }
+
+
+      else if(marks>60 && marks<80){
+
+        document.write("B");
+
+      }
+
+      else if(marks>80 && marks<100){
+        document.write(mAr);
+
+      }
+
+      else{
+        document.write("Better Luck for Nxt Time");
+      }
+*/
+
+
+
+/*for(let x=0;x<5;x++){
+
+  let fNum=parseInt(prompt('Enter First Number: '));
+
+let lNum=parseInt(prompt('Enter Last Number: '));
+let sum=fNum+lNum;
+document.write(sum+"<br>");
+
+
+}
+*/
+
+
+
+let numArray=[112,1,2,3,4,5,6,7,8];
+let nameArray=["Sagin","Siam","Sami","Arhan","Farhan"];
+
+numArray.splice(2,0,12,23);
+document.write(nameArray+"<br>");
+document.write(numArray+"<br>");
+
+let newSli=numArray.slice(2,3);
+document.write(newSli+"<br>");
+
+let sortednameArray=nameArray.sort();
+document.write(sortednameArray+"<br>");
+let sNa=sortednameArray.slice(1,2);
+document.write(sNa+"<br>");
+
+numArray.sort(function(a,b){
+  return b-a
+});
+document.write(numArray+"<br>");
+
+numArray.splice(3,4);
+document.write(numArray);
+    </script>
+</body>
+</html>

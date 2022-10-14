@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pro-card {
+  width: 350px;
+  height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(restroinside.jpg);
+  background-size: 350px;
+  background-repeat: no-repeat;
+}
+
+.upper-card {
+  height: 250px;
+}
+
+.upper-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  border: 2px solid goldenrod;
+}
+
+.upper-card img:hover {
+  border: 2px solid red;
+  transition: 0.9s;
+  cursor: pointer;
+}
+
+.mid-card {
+  height: 200px;
+  text-align: center;
+  margin-top: 13%;
+}
+
+h4 {
+  font-weight: normal;
+  padding: 10px;
+}
+
+button {
+  padding: 7px 15px;
+  background: transparent;
+  border: 1px solid red;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.mid-sub {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+h5 {
+  font-weight: normal;
+}
+
+.lower-card {
+  height: 50px;
+  background: rgb(76, 76, 243);
+  text-align: center;
+  padding: 15px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}/*# sourceMappingURL=pro.css.map */

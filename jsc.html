@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+        
+var marks=prompt("Enter Number: ");
+if(marks>100 || marks<0){
+    document.write("Invalid Query");
+}
+       else if(marks>80 && marks<=100){
+        document.write("A+");
+       }
+       else if(marks<80 && marks>60){
+        document.write("B");
+       }
+
+       else if(marks<60 && marks>40){
+        document.write("C");
+       }
+       else{
+        document.write("Kaga fail");
+
+       }
+
+
+       var stch=prompt("Enter Color:");
+       stch=stch.toLowerCase();
+       switch(stch){
+        case "green":
+            document.write("Mango");
+            break;
+
+            case "red":
+            document.write("Chilll");
+            break;
+
+            default:
+                document.write("nothing");
+
+            
+       }
+
+var vVv=prompt("ENter Any letter");
+
+if(vVv=="a" || vVv=="e" || vVv=="o" || vVv=="i" || vVv=="u"){
+document.write("ItsA Vowel");}
+else {
+    documnet.write("consonat");
+
+}
+
+
+    </script>
+</body>
+</html>

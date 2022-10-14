@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+//How to create  an Object.
+
+let car={
+    name:"BmW",
+    Height:"5Ft",
+    width:"4ft",
+    seat:"4 Seater",
+
+};
+
+
+//How to print Value of an object
+
+document.write(car.name+'<br>');
+ 
+car.milege="40km";
+
+document.write(car.milege+'<br>');
+
+
+//Adding a constructor
+
+//Same type er object nia kaj korte caile amra ekta property template create kore nibo ja ckorvo CNNSTRUCTOR er modde
+
+
+function Student(name,age,cgpa,zip){
+
+    this.name=name;
+    this.age=age;
+    this.cgpa=cgpa;
+    this.zip=zip;
+
+
+}
+
+let rahim=new Student('Rahim Miya',23,4.22,+3850);
+
+let Jabbar=new Student('Jabbar Miya',33,4.22,+3850);
+
+let kabir=new Student('Rahim Miya',43,4.22,+3850);
+
+document.write(rahim.name+'<br>');
+
+document.write(kabir.age+'<br>');
+
+
+//Adding Function Inside a  Constructor
+
+
+
+function Teachers(name,sub,hour,salary){
+
+
+    this.name=name;
+    this.sub=sub;
+    this.hour=hour;
+    this.salary=salary;
+//Aita holo Constructor a fuction likhar Rule:
+this.display=function(){
+
+    document.write(this.name);
+    document.write(this.sub);
+    document.write(this.hour);
+    document.write(this.salary);
+}
+
+}
+
+let teacher1=new Teachers('Siraj Pilot ','Chemistry ',4,"20k");
+let teacher2=new Teachers('Dulal Babu ','English',3,"20k");
+let teacher3=new Teachers('Ripa Rani', 'Math',7 ,"20k");
+
+teacher2.display();
+
+
+    </script>
+</body>
+</html>

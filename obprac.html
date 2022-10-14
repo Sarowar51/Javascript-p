@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+
+
+function Student(name, standard, age,address){
+
+    this.name=name;
+    this.standard=standard;
+    this.age=age;
+    this.address=address;
+
+
+    this.display=function(){
+
+        
+  document.write(this.name);
+          
+  document.write(this.standard);        
+  document.write(this.age);        
+  document.write(this.address);
+  
+    }
+
+}
+
+let rahim=new Student('Rahim Miya','Class five',12,"Dhaka");
+let Karim=new Student('Karim Miya','Class five',12,"Dhaka");
+let Safik=new Student('Safik Miya','Class five',12,"Dhaka");
+
+rahim.display();
+
+
+    </script>
+</body>
+</html>

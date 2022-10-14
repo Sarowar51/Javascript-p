@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <body>
+
+        <script>
+
+
+let scores=[133,122,34,57,78,88];
+
+
+
+function highestScore(scores){
+
+let max=scores[0];
+
+for(let x=1;x<scores.length;x++){
+
+
+    if(max<scores[x]){
+
+        max=scores[x];
+
+    }
+}
+return max;
+
+}
+let maxScores=highestScore(scores);
+document.write(maxScores+"<br>");
+
+
+
+/*
+
+let playersInfo=[["Sakib",12],["Mash",23],["Sabbir",34],["Jabar",333]];
+
+
+let  maxPlayer=playersInfo[[0],[1]];
+
+function highestRunscore(playersInfo){
+
+
+for(let x=0;x<5;x++){
+
+
+    for(let x=0;x<2;x++){
+if (maxPlayer<playersInfo.length){
+
+    document.write(maxPlayer[x])
+}
+
+    }
+}
+
+return maxPlayer;
+}
+
+let high=highestRunscore(maxPlayer);
+
+*/
+
+
+let playersInfo=[
+    ["Sakib",12],["Mash",23],["Sabbir",34],["Jabar",333]
+];
+
+
+
+
+
+function highestRunscore(playersInfo){
+
+
+
+}
+highestRunscore(playersInfo);
+
+
+        </script>
+
+    </body>
+</html>

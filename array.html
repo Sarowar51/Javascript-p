@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+/*Aibave Array define kora jay Array() er vitor array er poriman deya joruri noy*/
+/*
+var names=new Array();
+names[0]="one";
+names[1]="two";
+names[2]="three";
+names[3]="four";
+names[4]="Five";
+document.write(names.length);*/
+
+/*Abave o Array define kora jay*/
+
+var names=["one ","two ","three "," four "];
+document.write(names.length);
+
+names.push("Target ");
+document.write(names);
+document.write(names.length);
+document.write(names[3].toUpperCase());
+document.write("= "+names[4]);
+
+/* .push() functiin diye  r o element add kora jay And .pop() function diye   element remove kora jay*/
+
+names.push("No ");
+document.write(names);
+document.write(names.length);
+names.pop();
+document.write(names);
+document.write(names.length);
+
+names.pop();
+document.write(names);
+document.write(names.length);
+names.pop();
+document.write(names);
+document.write(names.length +"<br>");
+
+/*How to concate or add korete hoyy array*/
+var country1=["Bangla","England "];
+var country2=[" Spain","spanish"];
+
+country=country1.concat(country2).concat("hello");
+document.write(country);
+
+var nam="Nai";
+var na="ase";
+var ok=nam+na;
+
+document.write(ok+"<br>");
+
+const first=["hello","Hi","Hey"];
+const scnd=[" bye ", 2," No"];
+let final=first.concat(scnd);
+document.write("This is  hte out put of Final = " +final.length);
+document.write("This is  hte out put of Final = " + final);
+final.push("What");
+final.push("dismiss");
+
+document.write("This is  hte out put of Final = " + final);
+final.pop();
+document.write("This is  hte out put of Final = " + final);
+
+let marks=[12,233,44,55,5];
+document.write(marks +"<br>"+" ANother One");
+marks[0]=111;
+document.write(marks+"<br>"+" ANother One = ");
+alert(444);
+var fNum=prompt("Enter The shit");
+var lNum=prompt("Enter The shit");
+
+fNum=parseInt(fNum,10);
+
+lNum=parseInt(lNum,10);
+
+var result;
+result=fNum+lNum;
+document.write(result +"<br>");
+
+result=fNum-lNum;
+document.write(result);
+    </script>
+</body>
+</html>

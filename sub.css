@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainpage {
+  display: flex;
+}
+
+.formm {
+  padding: 20px;
+}
+
+.fa-thin {
+  background: red;
+}/*# sourceMappingURL=sub.css.map */

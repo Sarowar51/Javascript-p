@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+/*
+let student={
+    name:'Farhad',
+    class:'12th',
+    sub:"CSe",
+    gpa:4.01,
+
+}
+
+document.write(student.name+'<br>');
+
+
+
+function Constudent(name,clas,sub,gpa){
+
+
+    this.name=name;
+    this.clas=clas;
+    this.sub=sub;
+    this.gpa=gpa;
+
+
+}
+
+
+
+let student1=new Constudent('Baten',"11th","cse",3.44);
+let student2=new Constudent('Farin '," 10th "," cse ",3.44);
+
+document.write(student1.name+'<br>');
+
+
+function Constudent(name,clas,sub,gpa){
+
+
+
+ this.name=name;
+ this.clas=clas;
+ this.sub=sub;
+ this.gpa=gpa;
+
+
+this.display=function(){
+
+    document.write(this.name);
+    
+    document.write(this.clas);
+    
+    document.write(this.sub);
+    
+    document.write(this.gpa);
+}
+
+}
+student2.display();
+
+*/
+
+let student1=new Constudent('Baten',"11th","cse",3.44);
+let student2=new Constudent('Farin '," 10th "," cse ",3.44);
+
+
+
+function Constudent(name,clas,sub,gpa){
+
+this.name=name;
+this.clas=clas;
+this.sub=sub;
+this.gpa=gpa;
+
+
+
+
+this.display=function(){
+
+    document.write(this.name);
+    document.write(this.clas);
+    document.write(this.sub);
+    document.write(this.gpa+'<br>');
+
+}
+}
+
+
+
+document.write(student1.name+"<br>");
+
+
+
+function Labour(name,salary,job,time){
+
+    this.name=name;
+    this.salary=salary;
+    this.job=job;
+    this.time=time;
+
+this.display=function(){
+
+    document.write(this.name);
+    document.write(this.salary);
+    document.write(this.job);
+    document.write(this.time+'<br>');
+}
+
+}
+
+let lab1=new Labour('Mokbul',1000,'caretaker','six Hour');
+let lab2=new Labour('Raf',100,'caretaker','six Hour');
+
+
+lab2.display();
+document.write(lab1.name);
+
+
+
+function persons(name,job,sal,credit){
+
+
+    this.name=name;
+    this.job=job;
+    this.sal=sal;
+    this.credit=credit;
+
+    this.display=function(){
+
+        document.write(this.name);
+        document.write(this.job);
+        document.write(this.sal);
+        document.write(this.credit+'<br>');
+    }
+}
+
+let zara=new persons('Zara Amin','Data Anna','22k',11);
+let latif=new persons('latif Amin','Data Anna','22k',11);
+
+zara.display();
+document.write(zara.name);
+
+
+
+
+    </script>
+</body>
+</html>
